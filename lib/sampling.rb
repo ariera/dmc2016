@@ -37,20 +37,28 @@ module Sampling
       @sample = Sample.new
     end
     def call
-      while @sample.length < 10_000
+      while @sample.length < 50_000
         puts @sample.length
-        # order_id = LineItem.order("random()").select("orderid").where.not(orderid: @sample.order_ids).limit(1).first.orderid
-        order_id = find_random_order_id
-        lineitems = LineItem.where(orderid: order_id).to_a
-        @sample.push(lineitems)
-        customer_ids = lineitems.map(&:customerid).uniq
-        lineitems = LineItem.where(customerid: customer_ids).to_a
+        customer_id = find_random_customer_id
+        lineitems = LineItem.where(customerid: customer_id).to_a
         @sample.push(lineitems)
       end
       @sample.save_to_db!
     end
 
     private
+
+    def find_random_customer_id
+      @customer_ids ||= LineItem.all.pluck("customerid")
+
+      # sql = "select customerid from train group by customerid offset floor(random()*311369) limit 1"
+      customer_id = nil
+      while customer_id.nil? || @sample.customer_ids.include?(customer_id)
+        customer_id = @customer_ids.sample
+      end
+      customer_id
+    end
+
     def find_random_order_id
       @number_of_lineitems ||= LineItem.count
       order_id = nil
@@ -75,6 +83,10 @@ module Sampling
 
     def length
       @list.length
+    end
+
+    def customer_ids
+      @list.map(&:customerid).uniq
     end
 
     def order_ids
