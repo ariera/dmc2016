@@ -1,0 +1,7 @@
+adapter: "postgresql"
+host: "localhost"
+encoding: "utf8"
+reconnect: false
+pool: 5
+username: "ariera"
+database: "dmc2016"
