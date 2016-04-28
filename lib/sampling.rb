@@ -16,13 +16,13 @@ module Sampling
 
   class LineItem < ActiveRecord::Base
     def self.table_name
-      "train"
+      "train_dm2"
     end
   end
 
   class LineItemSample < ActiveRecord::Base
     def self.table_name
-      "train_sample"
+      "train_dm2_sample"
     end
 
     def self.mass_import(columns, rows)
@@ -37,7 +37,7 @@ module Sampling
       @sample = Sample.new
     end
     def call
-      while @sample.length < 50_000
+      while @sample.length < 100_000
         puts @sample.length
         customer_id = find_random_customer_id
         lineitems = LineItem.where(customerid: customer_id).to_a
