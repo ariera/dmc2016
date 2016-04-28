@@ -1,13 +1,4 @@
-require 'yaml'
-require 'active_record'
-require 'activerecord-import'
-require 'logger'
-require 'pry'
-
-db_config = YAML::load(File.open('config/database.yml'))
-ActiveRecord::Base.establish_connection(db_config)
-ActiveRecord::Base.logger = Logger.new(STDOUT)
-
+require_relative './shared.rb'
 
 module Sampling
   def self.sample!
@@ -103,7 +94,7 @@ module Sampling
 end
 
 
- Sampling.sample!
+Sampling.sample!
 
 
 __END__
