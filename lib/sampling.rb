@@ -93,8 +93,10 @@ module Sampling
 
 end
 
-
-Sampling.sample!
+measure = Benchmark.measure do
+  Sampling.sample!
+end
+puts measure
 
 
 __END__
