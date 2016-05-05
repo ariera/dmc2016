@@ -12,9 +12,13 @@ require_relative './feature_generation/order_history.rb'
 require_relative './feature_generation/article_history.rb'
 require_relative './feature_generation/features.rb'
 require_relative './feature_generation/train.rb'
+require_relative './feature_generation/train_dm2.rb'
+require_relative './feature_generation/test_dm2.rb'
 
 measure = Benchmark.measure do
   # FeatureGeneration::Train.recreate_table
+  # FeatureGeneration::TrainDm2.recreate_table
+  # FeatureGeneration::TestDm2.recreate_table
   FeatureGeneration::CustomerColorHistory.recreate_table
   FeatureGeneration::CustomerSizeHistory.recreate_table
   FeatureGeneration::OrderArticleHistory.recreate_table
