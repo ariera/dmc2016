@@ -10,21 +10,49 @@ require_relative './feature_generation/customer_size_history.rb'
 require_relative './feature_generation/order_article_history.rb'
 require_relative './feature_generation/order_history.rb'
 require_relative './feature_generation/article_history.rb'
-require_relative './feature_generation/features.rb'
+require_relative './feature_generation/train_features.rb'
+require_relative './feature_generation/test_features.rb'
 require_relative './feature_generation/train.rb'
 require_relative './feature_generation/train_dm2.rb'
 require_relative './feature_generation/test_dm2.rb'
 
-measure = Benchmark.measure do
-  # FeatureGeneration::Train.recreate_table
-  # FeatureGeneration::TrainDm2.recreate_table
-  # FeatureGeneration::TestDm2.recreate_table
-  FeatureGeneration::CustomerColorHistory.recreate_table
-  FeatureGeneration::CustomerSizeHistory.recreate_table
-  FeatureGeneration::OrderArticleHistory.recreate_table
-  FeatureGeneration::ArticleHistory.recreate_table
-  FeatureGeneration::OrderHistory.recreate_table
-  FeatureGeneration::Features.recreate_table
+
+
+module FeatureGeneration
+  def self.generate_datasets
+    FeatureGeneration::Train.recreate_table
+    FeatureGeneration::TrainDm2.recreate_table
+    FeatureGeneration::TestDm2.recreate_table
+  end
+
+  def self.generate_train_features
+    Table.namespace = "train_dm2_sample"
+
+    measure = Benchmark.measure do
+      FeatureGeneration::CustomerColorHistory.recreate_table
+      FeatureGeneration::CustomerSizeHistory.recreate_table
+      FeatureGeneration::OrderArticleHistory.recreate_table
+      FeatureGeneration::ArticleHistory.recreate_table
+      FeatureGeneration::OrderHistory.recreate_table
+      FeatureGeneration::TrainFeatures.recreate_table
+    end
+    puts measure
+  end
+
+  def self.generate_test_features
+    Table.namespace = "test_dm2"
+
+    measure = Benchmark.measure do
+      FeatureGeneration::OrderArticleHistory.recreate_table
+
+      FeatureGeneration::ArticleHistory.override_namespace = "train"
+      FeatureGeneration::ArticleHistory.recreate_table
+      FeatureGeneration::OrderHistory.recreate_table
+      FeatureGeneration::TestFeatures.recreate_table
+    end
+    puts measure
+  end
 end
 
-puts measure
+
+# FeatureGeneration.generate_test_features

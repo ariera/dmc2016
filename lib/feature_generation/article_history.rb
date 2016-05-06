@@ -1,7 +1,12 @@
 module FeatureGeneration
   class ArticleHistory < Table
+    cattr_accessor :override_namespace
     def self.table_name
-      "#{namespace}_article_history"
+      "#{override_namespace}_article_history"
+    end
+
+    def self.override_namespace
+      @@override_namespace || namespace
     end
 
     def self.table_sql
@@ -24,7 +29,7 @@ module FeatureGeneration
                    NULL
                  END AS price_per_item
 
-               FROM #{namespace}
+               FROM #{override_namespace}
              ) t
         GROUP BY articleid
       }
@@ -32,7 +37,7 @@ module FeatureGeneration
 
     def self.create_indexes_sql
       %Q{
-        CREATE INDEX idx_#{namespace}_ah_article ON #{table_name} (articleid);
+        CREATE INDEX idx_#{table_name}_ah_article ON #{table_name} (articleid);
       }
     end
   end

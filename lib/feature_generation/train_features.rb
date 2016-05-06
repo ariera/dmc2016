@@ -1,5 +1,5 @@
 module FeatureGeneration
-  class Features < Table
+  class TrainFeatures < Table
     def self.table_name
       "#{namespace}_features"
     end
