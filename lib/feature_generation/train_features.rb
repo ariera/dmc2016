@@ -47,6 +47,7 @@ module FeatureGeneration
           #{price_per_item_formula('t')} AS price_per_item,
           #{price_to_rrp_ratio_formula('t')} AS price_to_rrp_ratio,
           #{usual_price_ratio_formula('ah')} AS usual_price_ratio,
+          SUBSTR(t.colorcode::VARCHAR, 1, 1) AS color_RAL_group,
           ah.article_average_price,
           ah.article_cheapest_price,
           ah.article_most_expensive_price,
