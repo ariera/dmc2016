@@ -61,7 +61,10 @@ module FeatureGeneration
           cch.color_returned_ratio,
           csh.size_returned_times,
           csh.size_bought_times,
-          csh.size_returned_ratio
+          csh.size_returned_ratio,
+          ch.customer_sum_quantities,
+          ch.customer_sum_returns,
+          ch.customer_return_ratio
 
         FROM #{namespace} AS t
           INNER JOIN #{OrderHistory.table_name}         AS oh ON oh.orderid = t.orderid
@@ -69,6 +72,7 @@ module FeatureGeneration
           INNER JOIN #{OrderArticleHistory.table_name}  AS oah ON oah.orderid = t.orderid AND oah.articleid = t.articleid
           INNER JOIN #{CustomerColorHistory.table_name} AS cch ON cch.customerid = t.customerid AND cch.colorcode = t.colorcode
           INNER JOIN #{CustomerSizeHistory.table_name}  AS csh ON csh.customerid = t.customerid AND csh.sizecode = t.sizecode
+          INNER JOIN #{CustomerHistory.table_name}      AS ch ON ch.customerid = t.customerid
       }
     end
 

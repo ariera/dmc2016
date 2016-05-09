@@ -7,6 +7,7 @@ end
 require_relative './feature_generation/table.rb'
 require_relative './feature_generation/customer_color_history.rb'
 require_relative './feature_generation/customer_size_history.rb'
+require_relative './feature_generation/customer_history.rb'
 require_relative './feature_generation/order_article_history.rb'
 require_relative './feature_generation/order_history.rb'
 require_relative './feature_generation/article_history.rb'
@@ -26,11 +27,12 @@ module FeatureGeneration
   end
 
   def self.generate_train_features
-    Table.namespace = "train_dm2_sample"
+    Table.namespace = "train_dm2"
 
     measure = Benchmark.measure do
       FeatureGeneration::CustomerColorHistory.recreate_table
       FeatureGeneration::CustomerSizeHistory.recreate_table
+      FeatureGeneration::CustomerHistory.recreate_table
       FeatureGeneration::OrderArticleHistory.recreate_table
       FeatureGeneration::ArticleHistory.recreate_table
       FeatureGeneration::OrderHistory.recreate_table
