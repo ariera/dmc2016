@@ -11,7 +11,12 @@ module FeatureGeneration
                 SELECT
                   customerid,
                   colorcode,
-                  count(colorcode) color_returned_times
+                  count(
+                    CASE
+                    WHEN (quantity = 0) THEN NULL
+                    ELSE colorcode
+                    END
+                  ) color_returned_times
                 FROM #{namespace}
                 WHERE returnquantity > 0
                 GROUP BY customerid, colorcode
@@ -21,7 +26,12 @@ module FeatureGeneration
                 SELECT
                   customerid,
                   colorcode,
-                  count(colorcode) color_bought_times
+                  count(
+                    CASE
+                    WHEN (quantity = 0) THEN NULL
+                    ELSE colorcode
+                    END
+                  ) color_bought_times
                 FROM #{namespace}
                 GROUP BY customerid, colorcode
 
@@ -31,8 +41,11 @@ module FeatureGeneration
             color_bought.colorcode,
             COALESCE(color_returned.color_returned_times, 0) AS color_returned_times,
             color_bought.color_bought_times,
-            (COALESCE(color_returned.color_returned_times, 0) / color_bought_times :: FLOAT *
-             100) :: INT                                     AS color_returned_ratio
+            CASE
+              WHEN color_bought_times = 0 THEN 0
+              ELSE
+            (COALESCE(color_returned.color_returned_times, 0) / color_bought_times :: FLOAT * 100) :: INT
+            END AS color_returned_ratio
 
           FROM color_returned
             RIGHT JOIN color_bought

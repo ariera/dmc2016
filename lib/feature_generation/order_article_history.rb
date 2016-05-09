@@ -10,7 +10,13 @@ module FeatureGeneration
           orderid,
           articleid,
           sum(quantity)                   AS item_count,
-          count(DISTINCT (sizecode))      AS different_sizes,
+          count(DISTINCT (
+            CASE
+            WHEN (quantity > 0)
+              THEN sizecode
+            ELSE NULL
+            END
+          ))                              AS different_sizes,
           ARRAY_AGG(DISTINCT (sizecode))  AS sizes,
           count(DISTINCT (colorcode))     AS different_colors,
           ARRAY_AGG(DISTINCT (colorcode)) AS colors

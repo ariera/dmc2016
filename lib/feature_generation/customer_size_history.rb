@@ -11,7 +11,12 @@ module FeatureGeneration
                 SELECT
                   customerid,
                   sizecode,
-                  count(sizecode) size_returned_times
+                  count(
+                    CASE
+                    WHEN (quantity = 0) THEN NULL
+                    ELSE sizecode
+                    END
+                  ) size_returned_times
                 FROM #{namespace}
                 WHERE returnquantity > 0
                 GROUP BY customerid, sizecode
@@ -20,7 +25,12 @@ module FeatureGeneration
                 SELECT
                   customerid,
                   sizecode,
-                  count(sizecode) size_bought_times
+                  count(
+                    CASE
+                    WHEN (quantity = 0) THEN NULL
+                    ELSE sizecode
+                    END
+                  ) AS size_bought_times
                 FROM #{namespace}
                 GROUP BY customerid, sizecode
             )
@@ -30,7 +40,11 @@ module FeatureGeneration
             size_bought.sizecode,
             COALESCE(size_returned.size_returned_times, 0)                                             AS size_returned_times,
             size_bought.size_bought_times,
-            (COALESCE(size_returned.size_returned_times, 0) / size_bought_times :: FLOAT * 100) :: INT AS size_returned_ratio
+            CASE
+              WHEN (size_bought_times = 0) THEN 0
+              ELSE
+                (COALESCE(size_returned.size_returned_times, 0) / size_bought_times :: FLOAT * 100) :: INT
+            END AS size_returned_ratio
 
           FROM size_returned
             RIGHT JOIN size_bought
