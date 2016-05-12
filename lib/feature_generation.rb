@@ -27,7 +27,7 @@ module FeatureGeneration
   end
 
   def self.generate_train_features
-    Table.namespace = "train_dm2"
+    Table.namespace = "train"
 
     measure = Benchmark.measure do
       FeatureGeneration::CustomerColorHistory.recreate_table
@@ -42,12 +42,12 @@ module FeatureGeneration
   end
 
   def self.generate_test_features
-    Table.namespace = "test_dm2"
+    Table.namespace = "test"
 
     measure = Benchmark.measure do
       FeatureGeneration::OrderArticleHistory.recreate_table
 
-      FeatureGeneration::ArticleHistory.override_namespace = "train"
+      FeatureGeneration::ArticleHistory.override_namespace = "test_and_train"
       FeatureGeneration::ArticleHistory.recreate_table
       FeatureGeneration::OrderHistory.recreate_table
       FeatureGeneration::TestFeatures.recreate_table
