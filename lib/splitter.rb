@@ -46,10 +46,10 @@ module Splitter
   end
 
   def self._check_that_columns_match
-    train_known_columns = Set.new(Splitter::TrainKnownCustomers.columns.map(&:name)) - ["returnquantity"]
+    train_known_columns = Set.new(Splitter::TrainKnownCustomers.columns.map(&:name)) - ["returnquantity", "has_return"]
     test_known_columns = Set.new(Splitter::TestKnownCustomers.columns.map(&:name))
 
-    train_new_customers = Set.new(Splitter::TrainNewCustomers.columns.map(&:name)) - ["returnquantity"]
+    train_new_customers = Set.new(Splitter::TrainNewCustomers.columns.map(&:name)) - ["returnquantity", "has_return"]
     test_new_customers = Set.new(Splitter::TestNewCustomers.columns.map(&:name))
 
     if train_known_columns == test_known_columns
