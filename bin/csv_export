@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require_relative "../lib/csv.rb"
+
+Csv::Exporter.new.call(table_name: ARGV[0], file_path: ARGV[1])

@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+require "benchmark"
+
+
+measure = Benchmark.measure do
+  input_folder_path = '/Users/ariera/Dropbox/ariera/UniMannheim/Data\ Mining\ II/FSS2016/99.\ Project/week4/aleks/original'
+  system "bin/csv_import test_all_features #{input_folder_path}/AllFeaturesTestOriginal.csv"
+  system "bin/csv_import train_all_features #{input_folder_path}/AllFeaturesTrainOriginal.csv"
+
+  ##
+  system 'bin/split'
+
+  ##
+  output_folder_path = '/Users/ariera/Dropbox/ariera/UniMannheim/Data\ Mining\ II/FSS2016/99.\ Project/week4/competition_all_features_original_splitted_v1'
+  csv_out_prefix = "competition_"
+  system "bin/csv_export test_all_features_giveaways #{output_folder_path}/#{csv_out_prefix}test_all_features_giveaways.csv"
+  system "bin/csv_export test_all_features_known_customers #{output_folder_path}/#{csv_out_prefix}test_all_features_known_customers.csv"
+  system "bin/csv_export test_all_features_new_customers #{output_folder_path}/#{csv_out_prefix}test_all_features_new_customers.csv"
+
+  system "bin/csv_export train_all_features_known_customers #{output_folder_path}/#{csv_out_prefix}train_all_features_known_customers.csv"
+  system "bin/csv_export train_all_features_new_customers #{output_folder_path}/#{csv_out_prefix}train_all_features_new_customers.csv"
+end
+puts measure
