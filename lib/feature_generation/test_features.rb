@@ -8,6 +8,13 @@ module FeatureGeneration
           #{price_to_rrp_ratio_formula('t')} AS price_to_rrp_ratio,
           #{usual_price_ratio_formula('ah')} AS usual_price_ratio,
           SUBSTR(t.colorcode::VARCHAR, 1, 1) AS color_RAL_group,
+          CASE
+            WHEN (t.voucherid IS NULL)
+              THEN FALSE
+            WHEN (t.voucherid = '0')
+              THEN FALSE
+            ELSE TRUE
+          END AS has_voucher,
           ah.article_average_price,
           ah.article_cheapest_price,
           ah.article_most_expensive_price,
