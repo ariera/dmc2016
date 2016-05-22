@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/igrigorik/decisiontree.git
+  revision: 7b034dc5bc70c59a43322c413fae7168b6593cbe
+  specs:
+    decisiontree (0.5.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -39,8 +45,9 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   activerecord-import (>= 0.4.0)
+  decisiontree!
   pg
   pry
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
