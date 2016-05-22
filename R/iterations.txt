@@ -1,0 +1,1404 @@
+[1] "using attributes"
+  getcurrent(I)
+1     articleid
+2     colorcode
+[1] "using attributes"
+  getcurrent(I)
+1     articleid
+2    customerid
+[1] "using attributes"
+  getcurrent(I)
+1     articleid
+2   day_of_week
+[1] "using attributes"
+  getcurrent(I)
+1     articleid
+2      deviceid
+[1] "using attributes"
+     getcurrent(I)
+1        articleid
+2 different_colors
+[1] "using attributes"
+    getcurrent(I)
+1       articleid
+2 different_sizes
+[1] "using attributes"
+  getcurrent(I)
+1     articleid
+2  end_of_month
+[1] "using attributes"
+  getcurrent(I)
+1     articleid
+2    has_return
+[1] "using attributes"
+  getcurrent(I)
+1     articleid
+2   has_voucher
+[1] "using attributes"
+                          getcurrent(I)
+1                             articleid
+2 is_productgroup_with_high_return_rate
+[1] "using attributes"
+                         getcurrent(I)
+1                            articleid
+2 is_productgroup_with_low_return_rate
+[1] "using attributes"
+        getcurrent(I)
+1           articleid
+2 n_articles_in_order
+[1] "using attributes"
+                     getcurrent(I)
+1                        articleid
+2 n_times_article_appears_in_order
+[1] "using attributes"
+  getcurrent(I)
+1     articleid
+2     orderdate
+[1] "using attributes"
+  getcurrent(I)
+1     articleid
+2 paymentmethod
+[1] "using attributes"
+  getcurrent(I)
+1     articleid
+2         price
+[1] "using attributes"
+   getcurrent(I)
+1      articleid
+2 price_per_item
+[1] "using attributes"
+       getcurrent(I)
+1          articleid
+2 price_to_rrp_ratio
+[1] "using attributes"
+  getcurrent(I)
+1     articleid
+2  productgroup
+[1] "using attributes"
+  getcurrent(I)
+1     articleid
+2      quantity
+[1] "using attributes"
+  getcurrent(I)
+1     articleid
+2           rrp
+[1] "using attributes"
+  getcurrent(I)
+1     articleid
+2      sizecode
+[1] "using attributes"
+      getcurrent(I)
+1         articleid
+2 total_order_price
+[1] "using attributes"
+      getcurrent(I)
+1         articleid
+2 usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1                    articleid
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+  getcurrent(I)
+1     articleid
+2 voucheramount
+[1] "using attributes"
+  getcurrent(I)
+1     colorcode
+2    customerid
+[1] "using attributes"
+  getcurrent(I)
+1     colorcode
+2   day_of_week
+[1] "using attributes"
+  getcurrent(I)
+1     colorcode
+2      deviceid
+[1] "using attributes"
+     getcurrent(I)
+1        colorcode
+2 different_colors
+[1] "using attributes"
+    getcurrent(I)
+1       colorcode
+2 different_sizes
+[1] "using attributes"
+  getcurrent(I)
+1     colorcode
+2  end_of_month
+[1] "using attributes"
+  getcurrent(I)
+1     colorcode
+2    has_return
+[1] "using attributes"
+  getcurrent(I)
+1     colorcode
+2   has_voucher
+[1] "using attributes"
+                          getcurrent(I)
+1                             colorcode
+2 is_productgroup_with_high_return_rate
+[1] "using attributes"
+                         getcurrent(I)
+1                            colorcode
+2 is_productgroup_with_low_return_rate
+[1] "using attributes"
+        getcurrent(I)
+1           colorcode
+2 n_articles_in_order
+[1] "using attributes"
+                     getcurrent(I)
+1                        colorcode
+2 n_times_article_appears_in_order
+[1] "using attributes"
+  getcurrent(I)
+1     colorcode
+2     orderdate
+[1] "using attributes"
+  getcurrent(I)
+1     colorcode
+2 paymentmethod
+[1] "using attributes"
+  getcurrent(I)
+1     colorcode
+2         price
+[1] "using attributes"
+   getcurrent(I)
+1      colorcode
+2 price_per_item
+[1] "using attributes"
+       getcurrent(I)
+1          colorcode
+2 price_to_rrp_ratio
+[1] "using attributes"
+  getcurrent(I)
+1     colorcode
+2  productgroup
+[1] "using attributes"
+  getcurrent(I)
+1     colorcode
+2      quantity
+[1] "using attributes"
+  getcurrent(I)
+1     colorcode
+2           rrp
+[1] "using attributes"
+  getcurrent(I)
+1     colorcode
+2      sizecode
+[1] "using attributes"
+      getcurrent(I)
+1         colorcode
+2 total_order_price
+[1] "using attributes"
+      getcurrent(I)
+1         colorcode
+2 usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1                    colorcode
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+  getcurrent(I)
+1     colorcode
+2 voucheramount
+[1] "using attributes"
+  getcurrent(I)
+1    customerid
+2   day_of_week
+[1] "using attributes"
+  getcurrent(I)
+1    customerid
+2      deviceid
+[1] "using attributes"
+     getcurrent(I)
+1       customerid
+2 different_colors
+[1] "using attributes"
+    getcurrent(I)
+1      customerid
+2 different_sizes
+[1] "using attributes"
+  getcurrent(I)
+1    customerid
+2  end_of_month
+[1] "using attributes"
+  getcurrent(I)
+1    customerid
+2    has_return
+[1] "using attributes"
+  getcurrent(I)
+1    customerid
+2   has_voucher
+[1] "using attributes"
+                          getcurrent(I)
+1                            customerid
+2 is_productgroup_with_high_return_rate
+[1] "using attributes"
+                         getcurrent(I)
+1                           customerid
+2 is_productgroup_with_low_return_rate
+[1] "using attributes"
+        getcurrent(I)
+1          customerid
+2 n_articles_in_order
+[1] "using attributes"
+                     getcurrent(I)
+1                       customerid
+2 n_times_article_appears_in_order
+[1] "using attributes"
+  getcurrent(I)
+1    customerid
+2     orderdate
+[1] "using attributes"
+  getcurrent(I)
+1    customerid
+2 paymentmethod
+[1] "using attributes"
+  getcurrent(I)
+1    customerid
+2         price
+[1] "using attributes"
+   getcurrent(I)
+1     customerid
+2 price_per_item
+[1] "using attributes"
+       getcurrent(I)
+1         customerid
+2 price_to_rrp_ratio
+[1] "using attributes"
+  getcurrent(I)
+1    customerid
+2  productgroup
+[1] "using attributes"
+  getcurrent(I)
+1    customerid
+2      quantity
+[1] "using attributes"
+  getcurrent(I)
+1    customerid
+2           rrp
+[1] "using attributes"
+  getcurrent(I)
+1    customerid
+2      sizecode
+[1] "using attributes"
+      getcurrent(I)
+1        customerid
+2 total_order_price
+[1] "using attributes"
+      getcurrent(I)
+1        customerid
+2 usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1                   customerid
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+  getcurrent(I)
+1    customerid
+2 voucheramount
+[1] "using attributes"
+  getcurrent(I)
+1   day_of_week
+2      deviceid
+[1] "using attributes"
+     getcurrent(I)
+1      day_of_week
+2 different_colors
+[1] "using attributes"
+    getcurrent(I)
+1     day_of_week
+2 different_sizes
+[1] "using attributes"
+  getcurrent(I)
+1   day_of_week
+2  end_of_month
+[1] "using attributes"
+  getcurrent(I)
+1   day_of_week
+2    has_return
+[1] "using attributes"
+  getcurrent(I)
+1   day_of_week
+2   has_voucher
+[1] "using attributes"
+                          getcurrent(I)
+1                           day_of_week
+2 is_productgroup_with_high_return_rate
+[1] "using attributes"
+                         getcurrent(I)
+1                          day_of_week
+2 is_productgroup_with_low_return_rate
+[1] "using attributes"
+        getcurrent(I)
+1         day_of_week
+2 n_articles_in_order
+[1] "using attributes"
+                     getcurrent(I)
+1                      day_of_week
+2 n_times_article_appears_in_order
+[1] "using attributes"
+  getcurrent(I)
+1   day_of_week
+2     orderdate
+[1] "using attributes"
+  getcurrent(I)
+1   day_of_week
+2 paymentmethod
+[1] "using attributes"
+  getcurrent(I)
+1   day_of_week
+2         price
+[1] "using attributes"
+   getcurrent(I)
+1    day_of_week
+2 price_per_item
+[1] "using attributes"
+       getcurrent(I)
+1        day_of_week
+2 price_to_rrp_ratio
+[1] "using attributes"
+  getcurrent(I)
+1   day_of_week
+2  productgroup
+[1] "using attributes"
+  getcurrent(I)
+1   day_of_week
+2      quantity
+[1] "using attributes"
+  getcurrent(I)
+1   day_of_week
+2           rrp
+[1] "using attributes"
+  getcurrent(I)
+1   day_of_week
+2      sizecode
+[1] "using attributes"
+      getcurrent(I)
+1       day_of_week
+2 total_order_price
+[1] "using attributes"
+      getcurrent(I)
+1       day_of_week
+2 usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1                  day_of_week
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+  getcurrent(I)
+1   day_of_week
+2 voucheramount
+[1] "using attributes"
+     getcurrent(I)
+1         deviceid
+2 different_colors
+[1] "using attributes"
+    getcurrent(I)
+1        deviceid
+2 different_sizes
+[1] "using attributes"
+  getcurrent(I)
+1      deviceid
+2  end_of_month
+[1] "using attributes"
+  getcurrent(I)
+1      deviceid
+2    has_return
+[1] "using attributes"
+  getcurrent(I)
+1      deviceid
+2   has_voucher
+[1] "using attributes"
+                          getcurrent(I)
+1                              deviceid
+2 is_productgroup_with_high_return_rate
+[1] "using attributes"
+                         getcurrent(I)
+1                             deviceid
+2 is_productgroup_with_low_return_rate
+[1] "using attributes"
+        getcurrent(I)
+1            deviceid
+2 n_articles_in_order
+[1] "using attributes"
+                     getcurrent(I)
+1                         deviceid
+2 n_times_article_appears_in_order
+[1] "using attributes"
+  getcurrent(I)
+1      deviceid
+2     orderdate
+[1] "using attributes"
+  getcurrent(I)
+1      deviceid
+2 paymentmethod
+[1] "using attributes"
+  getcurrent(I)
+1      deviceid
+2         price
+[1] "using attributes"
+   getcurrent(I)
+1       deviceid
+2 price_per_item
+[1] "using attributes"
+       getcurrent(I)
+1           deviceid
+2 price_to_rrp_ratio
+[1] "using attributes"
+  getcurrent(I)
+1      deviceid
+2  productgroup
+[1] "using attributes"
+  getcurrent(I)
+1      deviceid
+2      quantity
+[1] "using attributes"
+  getcurrent(I)
+1      deviceid
+2           rrp
+[1] "using attributes"
+  getcurrent(I)
+1      deviceid
+2      sizecode
+[1] "using attributes"
+      getcurrent(I)
+1          deviceid
+2 total_order_price
+[1] "using attributes"
+      getcurrent(I)
+1          deviceid
+2 usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1                     deviceid
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+  getcurrent(I)
+1      deviceid
+2 voucheramount
+[1] "using attributes"
+     getcurrent(I)
+1 different_colors
+2  different_sizes
+[1] "using attributes"
+     getcurrent(I)
+1 different_colors
+2     end_of_month
+[1] "using attributes"
+     getcurrent(I)
+1 different_colors
+2       has_return
+[1] "using attributes"
+     getcurrent(I)
+1 different_colors
+2      has_voucher
+[1] "using attributes"
+                          getcurrent(I)
+1                      different_colors
+2 is_productgroup_with_high_return_rate
+[1] "using attributes"
+                         getcurrent(I)
+1                     different_colors
+2 is_productgroup_with_low_return_rate
+[1] "using attributes"
+        getcurrent(I)
+1    different_colors
+2 n_articles_in_order
+[1] "using attributes"
+                     getcurrent(I)
+1                 different_colors
+2 n_times_article_appears_in_order
+[1] "using attributes"
+     getcurrent(I)
+1 different_colors
+2        orderdate
+[1] "using attributes"
+     getcurrent(I)
+1 different_colors
+2    paymentmethod
+[1] "using attributes"
+     getcurrent(I)
+1 different_colors
+2            price
+[1] "using attributes"
+     getcurrent(I)
+1 different_colors
+2   price_per_item
+[1] "using attributes"
+       getcurrent(I)
+1   different_colors
+2 price_to_rrp_ratio
+[1] "using attributes"
+     getcurrent(I)
+1 different_colors
+2     productgroup
+[1] "using attributes"
+     getcurrent(I)
+1 different_colors
+2         quantity
+[1] "using attributes"
+     getcurrent(I)
+1 different_colors
+2              rrp
+[1] "using attributes"
+     getcurrent(I)
+1 different_colors
+2         sizecode
+[1] "using attributes"
+      getcurrent(I)
+1  different_colors
+2 total_order_price
+[1] "using attributes"
+      getcurrent(I)
+1  different_colors
+2 usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1             different_colors
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+     getcurrent(I)
+1 different_colors
+2    voucheramount
+[1] "using attributes"
+    getcurrent(I)
+1 different_sizes
+2    end_of_month
+[1] "using attributes"
+    getcurrent(I)
+1 different_sizes
+2      has_return
+[1] "using attributes"
+    getcurrent(I)
+1 different_sizes
+2     has_voucher
+[1] "using attributes"
+                          getcurrent(I)
+1                       different_sizes
+2 is_productgroup_with_high_return_rate
+[1] "using attributes"
+                         getcurrent(I)
+1                      different_sizes
+2 is_productgroup_with_low_return_rate
+[1] "using attributes"
+        getcurrent(I)
+1     different_sizes
+2 n_articles_in_order
+[1] "using attributes"
+                     getcurrent(I)
+1                  different_sizes
+2 n_times_article_appears_in_order
+[1] "using attributes"
+    getcurrent(I)
+1 different_sizes
+2       orderdate
+[1] "using attributes"
+    getcurrent(I)
+1 different_sizes
+2   paymentmethod
+[1] "using attributes"
+    getcurrent(I)
+1 different_sizes
+2           price
+[1] "using attributes"
+    getcurrent(I)
+1 different_sizes
+2  price_per_item
+[1] "using attributes"
+       getcurrent(I)
+1    different_sizes
+2 price_to_rrp_ratio
+[1] "using attributes"
+    getcurrent(I)
+1 different_sizes
+2    productgroup
+[1] "using attributes"
+    getcurrent(I)
+1 different_sizes
+2        quantity
+[1] "using attributes"
+    getcurrent(I)
+1 different_sizes
+2             rrp
+[1] "using attributes"
+    getcurrent(I)
+1 different_sizes
+2        sizecode
+[1] "using attributes"
+      getcurrent(I)
+1   different_sizes
+2 total_order_price
+[1] "using attributes"
+      getcurrent(I)
+1   different_sizes
+2 usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1              different_sizes
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+    getcurrent(I)
+1 different_sizes
+2   voucheramount
+[1] "using attributes"
+  getcurrent(I)
+1  end_of_month
+2    has_return
+[1] "using attributes"
+  getcurrent(I)
+1  end_of_month
+2   has_voucher
+[1] "using attributes"
+                          getcurrent(I)
+1                          end_of_month
+2 is_productgroup_with_high_return_rate
+[1] "using attributes"
+                         getcurrent(I)
+1                         end_of_month
+2 is_productgroup_with_low_return_rate
+[1] "using attributes"
+        getcurrent(I)
+1        end_of_month
+2 n_articles_in_order
+[1] "using attributes"
+                     getcurrent(I)
+1                     end_of_month
+2 n_times_article_appears_in_order
+[1] "using attributes"
+  getcurrent(I)
+1  end_of_month
+2     orderdate
+[1] "using attributes"
+  getcurrent(I)
+1  end_of_month
+2 paymentmethod
+[1] "using attributes"
+  getcurrent(I)
+1  end_of_month
+2         price
+[1] "using attributes"
+   getcurrent(I)
+1   end_of_month
+2 price_per_item
+[1] "using attributes"
+       getcurrent(I)
+1       end_of_month
+2 price_to_rrp_ratio
+[1] "using attributes"
+  getcurrent(I)
+1  end_of_month
+2  productgroup
+[1] "using attributes"
+  getcurrent(I)
+1  end_of_month
+2      quantity
+[1] "using attributes"
+  getcurrent(I)
+1  end_of_month
+2           rrp
+[1] "using attributes"
+  getcurrent(I)
+1  end_of_month
+2      sizecode
+[1] "using attributes"
+      getcurrent(I)
+1      end_of_month
+2 total_order_price
+[1] "using attributes"
+      getcurrent(I)
+1      end_of_month
+2 usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1                 end_of_month
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+  getcurrent(I)
+1  end_of_month
+2 voucheramount
+[1] "using attributes"
+  getcurrent(I)
+1    has_return
+2   has_voucher
+[1] "using attributes"
+                          getcurrent(I)
+1                            has_return
+2 is_productgroup_with_high_return_rate
+[1] "using attributes"
+                         getcurrent(I)
+1                           has_return
+2 is_productgroup_with_low_return_rate
+[1] "using attributes"
+        getcurrent(I)
+1          has_return
+2 n_articles_in_order
+[1] "using attributes"
+                     getcurrent(I)
+1                       has_return
+2 n_times_article_appears_in_order
+[1] "using attributes"
+  getcurrent(I)
+1    has_return
+2     orderdate
+[1] "using attributes"
+  getcurrent(I)
+1    has_return
+2 paymentmethod
+[1] "using attributes"
+  getcurrent(I)
+1    has_return
+2         price
+[1] "using attributes"
+   getcurrent(I)
+1     has_return
+2 price_per_item
+[1] "using attributes"
+       getcurrent(I)
+1         has_return
+2 price_to_rrp_ratio
+[1] "using attributes"
+  getcurrent(I)
+1    has_return
+2  productgroup
+[1] "using attributes"
+  getcurrent(I)
+1    has_return
+2      quantity
+[1] "using attributes"
+  getcurrent(I)
+1    has_return
+2           rrp
+[1] "using attributes"
+  getcurrent(I)
+1    has_return
+2      sizecode
+[1] "using attributes"
+      getcurrent(I)
+1        has_return
+2 total_order_price
+[1] "using attributes"
+      getcurrent(I)
+1        has_return
+2 usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1                   has_return
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+  getcurrent(I)
+1    has_return
+2 voucheramount
+[1] "using attributes"
+                          getcurrent(I)
+1                           has_voucher
+2 is_productgroup_with_high_return_rate
+[1] "using attributes"
+                         getcurrent(I)
+1                          has_voucher
+2 is_productgroup_with_low_return_rate
+[1] "using attributes"
+        getcurrent(I)
+1         has_voucher
+2 n_articles_in_order
+[1] "using attributes"
+                     getcurrent(I)
+1                      has_voucher
+2 n_times_article_appears_in_order
+[1] "using attributes"
+  getcurrent(I)
+1   has_voucher
+2     orderdate
+[1] "using attributes"
+  getcurrent(I)
+1   has_voucher
+2 paymentmethod
+[1] "using attributes"
+  getcurrent(I)
+1   has_voucher
+2         price
+[1] "using attributes"
+   getcurrent(I)
+1    has_voucher
+2 price_per_item
+[1] "using attributes"
+       getcurrent(I)
+1        has_voucher
+2 price_to_rrp_ratio
+[1] "using attributes"
+  getcurrent(I)
+1   has_voucher
+2  productgroup
+[1] "using attributes"
+  getcurrent(I)
+1   has_voucher
+2      quantity
+[1] "using attributes"
+  getcurrent(I)
+1   has_voucher
+2           rrp
+[1] "using attributes"
+  getcurrent(I)
+1   has_voucher
+2      sizecode
+[1] "using attributes"
+      getcurrent(I)
+1       has_voucher
+2 total_order_price
+[1] "using attributes"
+      getcurrent(I)
+1       has_voucher
+2 usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1                  has_voucher
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+  getcurrent(I)
+1   has_voucher
+2 voucheramount
+[1] "using attributes"
+                          getcurrent(I)
+1 is_productgroup_with_high_return_rate
+2  is_productgroup_with_low_return_rate
+[1] "using attributes"
+                          getcurrent(I)
+1 is_productgroup_with_high_return_rate
+2                   n_articles_in_order
+[1] "using attributes"
+                          getcurrent(I)
+1 is_productgroup_with_high_return_rate
+2      n_times_article_appears_in_order
+[1] "using attributes"
+                          getcurrent(I)
+1 is_productgroup_with_high_return_rate
+2                             orderdate
+[1] "using attributes"
+                          getcurrent(I)
+1 is_productgroup_with_high_return_rate
+2                         paymentmethod
+[1] "using attributes"
+                          getcurrent(I)
+1 is_productgroup_with_high_return_rate
+2                                 price
+[1] "using attributes"
+                          getcurrent(I)
+1 is_productgroup_with_high_return_rate
+2                        price_per_item
+[1] "using attributes"
+                          getcurrent(I)
+1 is_productgroup_with_high_return_rate
+2                    price_to_rrp_ratio
+[1] "using attributes"
+                          getcurrent(I)
+1 is_productgroup_with_high_return_rate
+2                          productgroup
+[1] "using attributes"
+                          getcurrent(I)
+1 is_productgroup_with_high_return_rate
+2                              quantity
+[1] "using attributes"
+                          getcurrent(I)
+1 is_productgroup_with_high_return_rate
+2                                   rrp
+[1] "using attributes"
+                          getcurrent(I)
+1 is_productgroup_with_high_return_rate
+2                              sizecode
+[1] "using attributes"
+                          getcurrent(I)
+1 is_productgroup_with_high_return_rate
+2                     total_order_price
+[1] "using attributes"
+                          getcurrent(I)
+1 is_productgroup_with_high_return_rate
+2                     usual_price_ratio
+[1] "using attributes"
+                          getcurrent(I)
+1 is_productgroup_with_high_return_rate
+2          voucher_to_order_price_ratio
+[1] "using attributes"
+                          getcurrent(I)
+1 is_productgroup_with_high_return_rate
+2                         voucheramount
+[1] "using attributes"
+                         getcurrent(I)
+1 is_productgroup_with_low_return_rate
+2                  n_articles_in_order
+[1] "using attributes"
+                         getcurrent(I)
+1 is_productgroup_with_low_return_rate
+2     n_times_article_appears_in_order
+[1] "using attributes"
+                         getcurrent(I)
+1 is_productgroup_with_low_return_rate
+2                            orderdate
+[1] "using attributes"
+                         getcurrent(I)
+1 is_productgroup_with_low_return_rate
+2                        paymentmethod
+[1] "using attributes"
+                         getcurrent(I)
+1 is_productgroup_with_low_return_rate
+2                                price
+[1] "using attributes"
+                         getcurrent(I)
+1 is_productgroup_with_low_return_rate
+2                       price_per_item
+[1] "using attributes"
+                         getcurrent(I)
+1 is_productgroup_with_low_return_rate
+2                   price_to_rrp_ratio
+[1] "using attributes"
+                         getcurrent(I)
+1 is_productgroup_with_low_return_rate
+2                         productgroup
+[1] "using attributes"
+                         getcurrent(I)
+1 is_productgroup_with_low_return_rate
+2                             quantity
+[1] "using attributes"
+                         getcurrent(I)
+1 is_productgroup_with_low_return_rate
+2                                  rrp
+[1] "using attributes"
+                         getcurrent(I)
+1 is_productgroup_with_low_return_rate
+2                             sizecode
+[1] "using attributes"
+                         getcurrent(I)
+1 is_productgroup_with_low_return_rate
+2                    total_order_price
+[1] "using attributes"
+                         getcurrent(I)
+1 is_productgroup_with_low_return_rate
+2                    usual_price_ratio
+[1] "using attributes"
+                         getcurrent(I)
+1 is_productgroup_with_low_return_rate
+2         voucher_to_order_price_ratio
+[1] "using attributes"
+                         getcurrent(I)
+1 is_productgroup_with_low_return_rate
+2                        voucheramount
+[1] "using attributes"
+                     getcurrent(I)
+1              n_articles_in_order
+2 n_times_article_appears_in_order
+[1] "using attributes"
+        getcurrent(I)
+1 n_articles_in_order
+2           orderdate
+[1] "using attributes"
+        getcurrent(I)
+1 n_articles_in_order
+2       paymentmethod
+[1] "using attributes"
+        getcurrent(I)
+1 n_articles_in_order
+2               price
+[1] "using attributes"
+        getcurrent(I)
+1 n_articles_in_order
+2      price_per_item
+[1] "using attributes"
+        getcurrent(I)
+1 n_articles_in_order
+2  price_to_rrp_ratio
+[1] "using attributes"
+        getcurrent(I)
+1 n_articles_in_order
+2        productgroup
+[1] "using attributes"
+        getcurrent(I)
+1 n_articles_in_order
+2            quantity
+[1] "using attributes"
+        getcurrent(I)
+1 n_articles_in_order
+2                 rrp
+[1] "using attributes"
+        getcurrent(I)
+1 n_articles_in_order
+2            sizecode
+[1] "using attributes"
+        getcurrent(I)
+1 n_articles_in_order
+2   total_order_price
+[1] "using attributes"
+        getcurrent(I)
+1 n_articles_in_order
+2   usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1          n_articles_in_order
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+        getcurrent(I)
+1 n_articles_in_order
+2       voucheramount
+[1] "using attributes"
+                     getcurrent(I)
+1 n_times_article_appears_in_order
+2                        orderdate
+[1] "using attributes"
+                     getcurrent(I)
+1 n_times_article_appears_in_order
+2                    paymentmethod
+[1] "using attributes"
+                     getcurrent(I)
+1 n_times_article_appears_in_order
+2                            price
+[1] "using attributes"
+                     getcurrent(I)
+1 n_times_article_appears_in_order
+2                   price_per_item
+[1] "using attributes"
+                     getcurrent(I)
+1 n_times_article_appears_in_order
+2               price_to_rrp_ratio
+[1] "using attributes"
+                     getcurrent(I)
+1 n_times_article_appears_in_order
+2                     productgroup
+[1] "using attributes"
+                     getcurrent(I)
+1 n_times_article_appears_in_order
+2                         quantity
+[1] "using attributes"
+                     getcurrent(I)
+1 n_times_article_appears_in_order
+2                              rrp
+[1] "using attributes"
+                     getcurrent(I)
+1 n_times_article_appears_in_order
+2                         sizecode
+[1] "using attributes"
+                     getcurrent(I)
+1 n_times_article_appears_in_order
+2                total_order_price
+[1] "using attributes"
+                     getcurrent(I)
+1 n_times_article_appears_in_order
+2                usual_price_ratio
+[1] "using attributes"
+                     getcurrent(I)
+1 n_times_article_appears_in_order
+2     voucher_to_order_price_ratio
+[1] "using attributes"
+                     getcurrent(I)
+1 n_times_article_appears_in_order
+2                    voucheramount
+[1] "using attributes"
+  getcurrent(I)
+1     orderdate
+2 paymentmethod
+[1] "using attributes"
+  getcurrent(I)
+1     orderdate
+2         price
+[1] "using attributes"
+   getcurrent(I)
+1      orderdate
+2 price_per_item
+[1] "using attributes"
+       getcurrent(I)
+1          orderdate
+2 price_to_rrp_ratio
+[1] "using attributes"
+  getcurrent(I)
+1     orderdate
+2  productgroup
+[1] "using attributes"
+  getcurrent(I)
+1     orderdate
+2      quantity
+[1] "using attributes"
+  getcurrent(I)
+1     orderdate
+2           rrp
+[1] "using attributes"
+  getcurrent(I)
+1     orderdate
+2      sizecode
+[1] "using attributes"
+      getcurrent(I)
+1         orderdate
+2 total_order_price
+[1] "using attributes"
+      getcurrent(I)
+1         orderdate
+2 usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1                    orderdate
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+  getcurrent(I)
+1     orderdate
+2 voucheramount
+[1] "using attributes"
+  getcurrent(I)
+1 paymentmethod
+2         price
+[1] "using attributes"
+   getcurrent(I)
+1  paymentmethod
+2 price_per_item
+[1] "using attributes"
+       getcurrent(I)
+1      paymentmethod
+2 price_to_rrp_ratio
+[1] "using attributes"
+  getcurrent(I)
+1 paymentmethod
+2  productgroup
+[1] "using attributes"
+  getcurrent(I)
+1 paymentmethod
+2      quantity
+[1] "using attributes"
+  getcurrent(I)
+1 paymentmethod
+2           rrp
+[1] "using attributes"
+  getcurrent(I)
+1 paymentmethod
+2      sizecode
+[1] "using attributes"
+      getcurrent(I)
+1     paymentmethod
+2 total_order_price
+[1] "using attributes"
+      getcurrent(I)
+1     paymentmethod
+2 usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1                paymentmethod
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+  getcurrent(I)
+1 paymentmethod
+2 voucheramount
+[1] "using attributes"
+   getcurrent(I)
+1          price
+2 price_per_item
+[1] "using attributes"
+       getcurrent(I)
+1              price
+2 price_to_rrp_ratio
+[1] "using attributes"
+  getcurrent(I)
+1         price
+2  productgroup
+[1] "using attributes"
+  getcurrent(I)
+1         price
+2      quantity
+[1] "using attributes"
+  getcurrent(I)
+1         price
+2           rrp
+[1] "using attributes"
+  getcurrent(I)
+1         price
+2      sizecode
+[1] "using attributes"
+      getcurrent(I)
+1             price
+2 total_order_price
+[1] "using attributes"
+      getcurrent(I)
+1             price
+2 usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1                        price
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+  getcurrent(I)
+1         price
+2 voucheramount
+[1] "using attributes"
+       getcurrent(I)
+1     price_per_item
+2 price_to_rrp_ratio
+[1] "using attributes"
+   getcurrent(I)
+1 price_per_item
+2   productgroup
+[1] "using attributes"
+   getcurrent(I)
+1 price_per_item
+2       quantity
+[1] "using attributes"
+   getcurrent(I)
+1 price_per_item
+2            rrp
+[1] "using attributes"
+   getcurrent(I)
+1 price_per_item
+2       sizecode
+[1] "using attributes"
+      getcurrent(I)
+1    price_per_item
+2 total_order_price
+[1] "using attributes"
+      getcurrent(I)
+1    price_per_item
+2 usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1               price_per_item
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+   getcurrent(I)
+1 price_per_item
+2  voucheramount
+[1] "using attributes"
+       getcurrent(I)
+1 price_to_rrp_ratio
+2       productgroup
+[1] "using attributes"
+       getcurrent(I)
+1 price_to_rrp_ratio
+2           quantity
+[1] "using attributes"
+       getcurrent(I)
+1 price_to_rrp_ratio
+2                rrp
+[1] "using attributes"
+       getcurrent(I)
+1 price_to_rrp_ratio
+2           sizecode
+[1] "using attributes"
+       getcurrent(I)
+1 price_to_rrp_ratio
+2  total_order_price
+[1] "using attributes"
+       getcurrent(I)
+1 price_to_rrp_ratio
+2  usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1           price_to_rrp_ratio
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+       getcurrent(I)
+1 price_to_rrp_ratio
+2      voucheramount
+[1] "using attributes"
+  getcurrent(I)
+1  productgroup
+2      quantity
+[1] "using attributes"
+  getcurrent(I)
+1  productgroup
+2           rrp
+[1] "using attributes"
+  getcurrent(I)
+1  productgroup
+2      sizecode
+[1] "using attributes"
+      getcurrent(I)
+1      productgroup
+2 total_order_price
+[1] "using attributes"
+      getcurrent(I)
+1      productgroup
+2 usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1                 productgroup
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+  getcurrent(I)
+1  productgroup
+2 voucheramount
+[1] "using attributes"
+  getcurrent(I)
+1      quantity
+2           rrp
+[1] "using attributes"
+  getcurrent(I)
+1      quantity
+2      sizecode
+[1] "using attributes"
+      getcurrent(I)
+1          quantity
+2 total_order_price
+[1] "using attributes"
+      getcurrent(I)
+1          quantity
+2 usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1                     quantity
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+  getcurrent(I)
+1      quantity
+2 voucheramount
+[1] "using attributes"
+  getcurrent(I)
+1           rrp
+2      sizecode
+[1] "using attributes"
+      getcurrent(I)
+1               rrp
+2 total_order_price
+[1] "using attributes"
+      getcurrent(I)
+1               rrp
+2 usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1                          rrp
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+  getcurrent(I)
+1           rrp
+2 voucheramount
+[1] "using attributes"
+      getcurrent(I)
+1          sizecode
+2 total_order_price
+[1] "using attributes"
+      getcurrent(I)
+1          sizecode
+2 usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1                     sizecode
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+  getcurrent(I)
+1      sizecode
+2 voucheramount
+[1] "using attributes"
+      getcurrent(I)
+1 total_order_price
+2 usual_price_ratio
+[1] "using attributes"
+                 getcurrent(I)
+1            total_order_price
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+      getcurrent(I)
+1 total_order_price
+2     voucheramount
+[1] "using attributes"
+                 getcurrent(I)
+1            usual_price_ratio
+2 voucher_to_order_price_ratio
+[1] "using attributes"
+      getcurrent(I)
+1 usual_price_ratio
+2     voucheramount
+[1] "using attributes"
+                 getcurrent(I)
+1 voucher_to_order_price_ratio
+2                voucheramount

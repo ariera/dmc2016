@@ -1,0 +1,732 @@
+2016-05-18 22:42:22 WARNING:naive:hello world
+2016-05-18 22:42:32 INFO:naive:hello world
+2016-05-18 22:43:47 INFO:naive:voucheramount
+2016-05-18 22:43:57 INFO:naive:articleid
+2016-05-18 22:43:57 INFO:naive:colorcode
+2016-05-18 22:43:57 INFO:naive:customerid
+2016-05-18 22:43:57 INFO:naive:day_of_week
+2016-05-18 22:43:57 INFO:naive:deviceid
+2016-05-18 22:43:57 INFO:naive:different_colors
+2016-05-18 22:43:57 INFO:naive:different_sizes
+2016-05-18 22:43:57 INFO:naive:end_of_month
+2016-05-18 22:43:57 INFO:naive:has_return
+2016-05-18 22:43:57 INFO:naive:has_voucher
+2016-05-18 22:43:57 INFO:naive:is_productgroup_with_high_return_rate
+2016-05-18 22:43:57 INFO:naive:is_productgroup_with_low_return_rate
+2016-05-18 22:43:57 INFO:naive:n_articles_in_order
+2016-05-18 22:43:57 INFO:naive:n_times_article_appears_in_order
+2016-05-18 22:43:57 INFO:naive:orderdate
+2016-05-18 22:43:57 INFO:naive:paymentmethod
+2016-05-18 22:43:57 INFO:naive:price
+2016-05-18 22:43:57 INFO:naive:price_per_item
+2016-05-18 22:43:57 INFO:naive:price_to_rrp_ratio
+2016-05-18 22:43:57 INFO:naive:productgroup
+2016-05-18 22:43:57 INFO:naive:quantity
+2016-05-18 22:43:57 INFO:naive:rrp
+2016-05-18 22:43:57 INFO:naive:sizecode
+2016-05-18 22:43:57 INFO:naive:total_order_price
+2016-05-18 22:43:57 INFO:naive:usual_price_ratio
+2016-05-18 22:43:57 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:43:57 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:colorcode
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:customerid
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:day_of_week
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:deviceid
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:different_colors
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:different_sizes
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:end_of_month
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:has_return
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:has_voucher
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:orderdate
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:paymentmethod
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:price
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:price_per_item
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:productgroup
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:articleid
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:customerid
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:day_of_week
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:deviceid
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:different_colors
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:different_sizes
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:end_of_month
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:has_return
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:has_voucher
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:orderdate
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:paymentmethod
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:price
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:price_per_item
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:productgroup
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:colorcode
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:day_of_week
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:deviceid
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:different_colors
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:different_sizes
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:end_of_month
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:has_return
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:has_voucher
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:orderdate
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:paymentmethod
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:price
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:price_per_item
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:productgroup
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:customerid
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:deviceid
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:different_colors
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:different_sizes
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:end_of_month
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:has_return
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:has_voucher
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:orderdate
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:paymentmethod
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:price
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:price_per_item
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:productgroup
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:day_of_week
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:different_colors
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:different_sizes
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:end_of_month
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:has_return
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:has_voucher
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:orderdate
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:paymentmethod
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:price
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:price_per_item
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:productgroup
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:deviceid
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:different_sizes
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:end_of_month
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:has_return
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:has_voucher
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:orderdate
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:paymentmethod
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:price
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:price_per_item
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:productgroup
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:different_colors
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:end_of_month
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:has_return
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:has_voucher
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:orderdate
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:paymentmethod
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:price
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:price_per_item
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:productgroup
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:different_sizes
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:end_of_month
+ 2016-05-18 22:44:08 INFO:naive:has_return
+2016-05-18 22:44:08 INFO:naive:end_of_month
+ 2016-05-18 22:44:08 INFO:naive:has_voucher
+2016-05-18 22:44:08 INFO:naive:end_of_month
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+2016-05-18 22:44:08 INFO:naive:end_of_month
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+2016-05-18 22:44:08 INFO:naive:end_of_month
+ 2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+2016-05-18 22:44:08 INFO:naive:end_of_month
+ 2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+2016-05-18 22:44:08 INFO:naive:end_of_month
+ 2016-05-18 22:44:08 INFO:naive:orderdate
+2016-05-18 22:44:08 INFO:naive:end_of_month
+ 2016-05-18 22:44:08 INFO:naive:paymentmethod
+2016-05-18 22:44:08 INFO:naive:end_of_month
+ 2016-05-18 22:44:08 INFO:naive:price
+2016-05-18 22:44:08 INFO:naive:end_of_month
+ 2016-05-18 22:44:08 INFO:naive:price_per_item
+2016-05-18 22:44:08 INFO:naive:end_of_month
+ 2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+2016-05-18 22:44:08 INFO:naive:end_of_month
+ 2016-05-18 22:44:08 INFO:naive:productgroup
+2016-05-18 22:44:08 INFO:naive:end_of_month
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:end_of_month
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:end_of_month
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:end_of_month
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:end_of_month
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:end_of_month
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:end_of_month
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:has_return
+ 2016-05-18 22:44:08 INFO:naive:has_voucher
+2016-05-18 22:44:08 INFO:naive:has_return
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+2016-05-18 22:44:08 INFO:naive:has_return
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+2016-05-18 22:44:08 INFO:naive:has_return
+ 2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+2016-05-18 22:44:08 INFO:naive:has_return
+ 2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+2016-05-18 22:44:08 INFO:naive:has_return
+ 2016-05-18 22:44:08 INFO:naive:orderdate
+2016-05-18 22:44:08 INFO:naive:has_return
+ 2016-05-18 22:44:08 INFO:naive:paymentmethod
+2016-05-18 22:44:08 INFO:naive:has_return
+ 2016-05-18 22:44:08 INFO:naive:price
+2016-05-18 22:44:08 INFO:naive:has_return
+ 2016-05-18 22:44:08 INFO:naive:price_per_item
+2016-05-18 22:44:08 INFO:naive:has_return
+ 2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+2016-05-18 22:44:08 INFO:naive:has_return
+ 2016-05-18 22:44:08 INFO:naive:productgroup
+2016-05-18 22:44:08 INFO:naive:has_return
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:has_return
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:has_return
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:has_return
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:has_return
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:has_return
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:has_return
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:has_voucher
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+2016-05-18 22:44:08 INFO:naive:has_voucher
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+2016-05-18 22:44:08 INFO:naive:has_voucher
+ 2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+2016-05-18 22:44:08 INFO:naive:has_voucher
+ 2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+2016-05-18 22:44:08 INFO:naive:has_voucher
+ 2016-05-18 22:44:08 INFO:naive:orderdate
+2016-05-18 22:44:08 INFO:naive:has_voucher
+ 2016-05-18 22:44:08 INFO:naive:paymentmethod
+2016-05-18 22:44:08 INFO:naive:has_voucher
+ 2016-05-18 22:44:08 INFO:naive:price
+2016-05-18 22:44:08 INFO:naive:has_voucher
+ 2016-05-18 22:44:08 INFO:naive:price_per_item
+2016-05-18 22:44:08 INFO:naive:has_voucher
+ 2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+2016-05-18 22:44:08 INFO:naive:has_voucher
+ 2016-05-18 22:44:08 INFO:naive:productgroup
+2016-05-18 22:44:08 INFO:naive:has_voucher
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:has_voucher
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:has_voucher
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:has_voucher
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:has_voucher
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:has_voucher
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:has_voucher
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+ 2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+ 2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+ 2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+ 2016-05-18 22:44:08 INFO:naive:orderdate
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+ 2016-05-18 22:44:08 INFO:naive:paymentmethod
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+ 2016-05-18 22:44:08 INFO:naive:price
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+ 2016-05-18 22:44:08 INFO:naive:price_per_item
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+ 2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+ 2016-05-18 22:44:08 INFO:naive:productgroup
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_high_return_rate
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+ 2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+ 2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+ 2016-05-18 22:44:08 INFO:naive:orderdate
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+ 2016-05-18 22:44:08 INFO:naive:paymentmethod
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+ 2016-05-18 22:44:08 INFO:naive:price
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+ 2016-05-18 22:44:08 INFO:naive:price_per_item
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+ 2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+ 2016-05-18 22:44:08 INFO:naive:productgroup
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:is_productgroup_with_low_return_rate
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+ 2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+ 2016-05-18 22:44:08 INFO:naive:orderdate
+2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+ 2016-05-18 22:44:08 INFO:naive:paymentmethod
+2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+ 2016-05-18 22:44:08 INFO:naive:price
+2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+ 2016-05-18 22:44:08 INFO:naive:price_per_item
+2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+ 2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+ 2016-05-18 22:44:08 INFO:naive:productgroup
+2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:n_articles_in_order
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+ 2016-05-18 22:44:08 INFO:naive:orderdate
+2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+ 2016-05-18 22:44:08 INFO:naive:paymentmethod
+2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+ 2016-05-18 22:44:08 INFO:naive:price
+2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+ 2016-05-18 22:44:08 INFO:naive:price_per_item
+2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+ 2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+ 2016-05-18 22:44:08 INFO:naive:productgroup
+2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:n_times_article_appears_in_order
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:orderdate
+ 2016-05-18 22:44:08 INFO:naive:paymentmethod
+2016-05-18 22:44:08 INFO:naive:orderdate
+ 2016-05-18 22:44:08 INFO:naive:price
+2016-05-18 22:44:08 INFO:naive:orderdate
+ 2016-05-18 22:44:08 INFO:naive:price_per_item
+2016-05-18 22:44:08 INFO:naive:orderdate
+ 2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+2016-05-18 22:44:08 INFO:naive:orderdate
+ 2016-05-18 22:44:08 INFO:naive:productgroup
+2016-05-18 22:44:08 INFO:naive:orderdate
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:orderdate
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:orderdate
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:orderdate
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:orderdate
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:orderdate
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:orderdate
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:paymentmethod
+ 2016-05-18 22:44:08 INFO:naive:price
+2016-05-18 22:44:08 INFO:naive:paymentmethod
+ 2016-05-18 22:44:08 INFO:naive:price_per_item
+2016-05-18 22:44:08 INFO:naive:paymentmethod
+ 2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+2016-05-18 22:44:08 INFO:naive:paymentmethod
+ 2016-05-18 22:44:08 INFO:naive:productgroup
+2016-05-18 22:44:08 INFO:naive:paymentmethod
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:paymentmethod
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:paymentmethod
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:paymentmethod
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:paymentmethod
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:paymentmethod
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:paymentmethod
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:price
+ 2016-05-18 22:44:08 INFO:naive:price_per_item
+2016-05-18 22:44:08 INFO:naive:price
+ 2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+2016-05-18 22:44:08 INFO:naive:price
+ 2016-05-18 22:44:08 INFO:naive:productgroup
+2016-05-18 22:44:08 INFO:naive:price
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:price
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:price
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:price
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:price
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:price
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:price
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:price_per_item
+ 2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+2016-05-18 22:44:08 INFO:naive:price_per_item
+ 2016-05-18 22:44:08 INFO:naive:productgroup
+2016-05-18 22:44:08 INFO:naive:price_per_item
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:price_per_item
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:price_per_item
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:price_per_item
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:price_per_item
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:price_per_item
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:price_per_item
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+ 2016-05-18 22:44:08 INFO:naive:productgroup
+2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:price_to_rrp_ratio
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:productgroup
+ 2016-05-18 22:44:08 INFO:naive:quantity
+2016-05-18 22:44:08 INFO:naive:productgroup
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:productgroup
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:productgroup
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:productgroup
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:productgroup
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:productgroup
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:quantity
+ 2016-05-18 22:44:08 INFO:naive:rrp
+2016-05-18 22:44:08 INFO:naive:quantity
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:quantity
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:quantity
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:quantity
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:quantity
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:rrp
+ 2016-05-18 22:44:08 INFO:naive:sizecode
+2016-05-18 22:44:08 INFO:naive:rrp
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:rrp
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:rrp
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:rrp
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:sizecode
+ 2016-05-18 22:44:08 INFO:naive:total_order_price
+2016-05-18 22:44:08 INFO:naive:sizecode
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:sizecode
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:sizecode
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:total_order_price
+ 2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+2016-05-18 22:44:08 INFO:naive:total_order_price
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:total_order_price
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+ 2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+2016-05-18 22:44:08 INFO:naive:usual_price_ratio
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
+2016-05-18 22:44:08 INFO:naive:voucher_to_order_price_ratio
+ 2016-05-18 22:44:08 INFO:naive:voucheramount
