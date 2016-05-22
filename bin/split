@@ -4,4 +4,34 @@ require "bundler/setup"
 require_relative "../lib/splitter"
 require 'benchmark'
 
-puts Benchmark.measure{ Splitter.split_known_and_new_customers }
+measure = Benchmark.measure do
+  raise "missing argument" unless ARGV[0].present?
+  opts = case ARGV[0].to_s
+  when "competition"
+    {
+      namespace: "competition",
+      test_table: "test_all_features",
+      train_table: "train_all_features",
+      add_label_to_test: false
+    }
+  when "dm2"
+    {
+      namespace: "dm2_v7",
+      # test_table: "dm2_test_all_features",
+      test_table: "test_dm2_features",
+      # train_table: "dm2_train_all_features",
+      train_table: "train_dm2_features",
+      add_label_to_test: true
+    }
+  when "dm2_sample"
+    {
+      namespace: "dm2_sample",
+      test_table: "dm2_test_all_features",
+      train_table: "dm2_sample_train_all_features",
+      add_label_to_test: true
+    }
+  end
+  Splitter.split_known_and_new_customers(opts)
+end
+
+puts measure

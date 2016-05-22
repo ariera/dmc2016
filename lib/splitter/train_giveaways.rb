@@ -1,13 +1,14 @@
 module Splitter
-  class TrainGiveAways < FeatureGeneration::Table
+  class TrainGiveAways < Table
     def self.table_name
-      "train_all_features_giveaways"
+      "#{namespace}_train_giveaways"
     end
 
-    def self.table_sql
+    def self.table_sql(opts)
+      train_table = opts["train_table"]
       %Q{
         SELECT *
-        FROM train_all_features
+        FROM #{train_table}
         WHERE
           (quantity::float = 0 OR price::float = 0 OR colorcode::float = 8888 OR productgroup IS NULL OR rrp IS NULL)
       }

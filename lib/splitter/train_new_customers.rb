@@ -1,12 +1,12 @@
 module Splitter
-  class TrainNewCustomers < FeatureGeneration::Table
+  class TrainNewCustomers < Table
     def self.table_name
-      "train_all_features_new_customers"
+      "#{namespace}_train_new_customers"
     end
 
-    def self.table_sql
-      test_table = "test_all_features"
-      train_table = "train_all_features"
+    def self.table_sql(opts)
+      test_table = opts["test_table"]
+      train_table = opts["train_table"]
       %Q{
         WITH test_no_giveaways AS (
             SELECT *
@@ -29,10 +29,10 @@ module Splitter
         SELECT
           trn_ng."colorcode",
           trn_ng."deviceid",
-          trn_ng."day in month" as day_in_month,
-          trn_ng."month_of_year",
-          trn_ng."day_of_week",
-          trn_ng."quarter",
+          --trn_ng."day in month" as day_in_month,
+          --trn_ng."month_of_year",
+          --trn_ng."day_of_week",
+          --trn_ng."quarter",
           trn_ng."orderid",
           trn_ng."articleid",
           trn_ng."sizecode",
@@ -59,16 +59,38 @@ module Splitter
           trn_ng."sizes",
           trn_ng."different_colors",
           trn_ng."colors",
-          trn_ng."NewSizeCode",
-          trn_ng."new_paymentmethod",
-          trn_ng."year_and_month",
+          --trn_ng."NewSizeCode",
+          --trn_ng."new_paymentmethod",
+          --trn_ng."year_and_month",
           trn_ng."returnquantity",
           (trn_ng."returnquantity"::float != 0) as has_return,
+          trn_ng.day,
+          trn_ng.month,
+          trn_ng.year,
+          trn_ng.day_of_week,
+          trn_ng.quarter,
+          trn_ng.year_and_month,
+          trn_ng.end_of_month,
+          trn_ng.is_productgroup_with_low_return_rate,
+          trn_ng.is_productgroup_with_high_return_rate,
+          trn_ng.gender,
+          trn_ng.product_kind,
+          trn_ng.subtotal_order_price,
+          trn_ng.n_articles_in_order,
+          trn_ng.voucher_to_order_price_ratio,
+          trn_ng.n_times_article_appears_in_order,
+          trn_ng.customer_cluster,
           trn_ng."id"
         FROM train_no_giveaways AS trn_ng
           LEFT JOIN new_customers AS kc ON trn_ng.customerid = kc.customerid
         WHERE kc.customerid IS NULL;
 
+      }
+    end
+
+    def self.create_indexes_sql
+      %Q{
+        CREATE INDEX idx_#{namespace}_tnc_customer ON #{table_name} (customerid);
       }
     end
   end

@@ -1,12 +1,21 @@
 module Splitter
-  class TestKnownCustomers < FeatureGeneration::Table
+  class TestKnownCustomers < Table
     def self.table_name
-      "test_all_features_known_customers"
+      "#{namespace}_test_known_customers"
     end
 
-    def self.table_sql
-      test_table = "test_all_features"
-      train_table = "train_all_features"
+    def self.table_sql(opts)
+      test_table = opts["test_table"]
+      train_table = opts["train_table"]
+
+      label_selector_sql = if opts["add_label_to_test"]
+        %Q{
+          tst_ng."returnquantity",
+          (tst_ng."returnquantity"::float != 0) as has_return,
+        }
+      else
+        ""
+      end
       %Q{
         WITH test_no_giveaways AS (
             SELECT *
@@ -37,10 +46,10 @@ module Splitter
         SELECT
           tst_ng."colorcode",
           tst_ng."deviceid",
-          tst_ng."day in month" as day_in_month,
-          tst_ng."month_of_year",
-          tst_ng."day_of_week",
-          tst_ng."quarter",
+          --tst_ng."day in month" as day_in_month,
+          --tst_ng."month_of_year",
+          --tst_ng."day_of_week",
+          --tst_ng."quarter",
           tst_ng."orderid",
           tst_ng."articleid",
           tst_ng."sizecode",
@@ -67,6 +76,22 @@ module Splitter
           tst_ng."sizes",
           tst_ng."different_colors",
           tst_ng."colors",
+          tst_ng.day,
+          tst_ng.month,
+          tst_ng.year,
+          tst_ng.day_of_week,
+          tst_ng.quarter,
+          tst_ng.year_and_month,
+          tst_ng.end_of_month,
+          tst_ng.is_productgroup_with_low_return_rate,
+          tst_ng.is_productgroup_with_high_return_rate,
+          tst_ng.gender,
+          tst_ng.product_kind,
+          tst_ng.subtotal_order_price,
+          tst_ng.n_articles_in_order,
+          tst_ng.voucher_to_order_price_ratio,
+          tst_ng.n_times_article_appears_in_order,
+          tst_ng.customer_cluster,
           kc."size_bought_times",
           kc."size_returned_ratio",
           kc."size_returned_times",
@@ -76,11 +101,10 @@ module Splitter
           kc."customer_return_ratio",
           kc."customer_sum_quantities",
           kc."customer_sum_returns",
-          tst_ng."NewSizeCode",
-          tst_ng."new_paymentmethod",
-          tst_ng."year_and_month",
-          --tst_ng."returnquantity",
-          --(tst_ng."returnquantity"::float != 0) as has_return,
+          --tst_ng."NewSizeCode",
+          --tst_ng."new_paymentmethod",
+          --tst_ng."year_and_month",
+          #{label_selector_sql}
           tst_ng."id"
         FROM test_no_giveaways AS tst_ng
           INNER JOIN known_customers AS kc ON tst_ng.customerid = kc.customerid;
