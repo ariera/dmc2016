@@ -40,10 +40,45 @@ module FeatureGeneration
       }
     end
 
+    def self.product_kind(table_name)
+      %Q{
+        CASE
+        WHEN round(#{table_name}.productgroup :: FLOAT) :: VARCHAR IN ('2', '1237')
+          THEN 'product_bottom'
+        WHEN round(#{table_name}.productgroup :: FLOAT) = 1258 OR
+             (#{table_name}.sizecode IN ('75', '80', '85', '90', '95', '100') AND round(#{table_name}.productgroup :: FLOAT) = 17)
+          THEN 'product_bra'
+        WHEN round(#{table_name}.productgroup :: FLOAT) :: VARCHAR IN ('7', '17')
+          THEN 'product_top'
+        ELSE 'product_unknown'
+        END
+      }
+    end
+
+    def self.date_attrs_sql(table_name)
+      %Q{
+        date_part('day', #{table_name}.orderdate) as day,
+        date_part('month', #{table_name}.orderdate) as month,
+        date_part('year', #{table_name}.orderdate) as year,
+        extract(DOW from #{table_name}.orderdate) as day_of_week,
+        extract(QUARTER from #{table_name}.orderdate) as quarter,
+        to_char(#{table_name}.orderdate, 'YYYY-MM') as year_and_month,
+        date_part('day', #{table_name}.orderdate) < 31 AND date_part('day', #{table_name}.orderdate) > 25 AS end_of_month
+      }
+    end
+
+    def self.productgroup_return_history(table_name)
+      %Q{
+        #{table_name}.productgroup in ('45', '43', '17') AS is_productgroup_with_low_return_rate,
+        #{table_name}.productgroup in ('1', '9', '14', '50', '7', '13') AS is_productgroup_with_high_return_rate
+      }
+    end
+
     def self.table_sql
       %Q{
         SELECT
           t.*,
+          g.gender,
           #{price_per_item_formula('t')} AS price_per_item,
           #{price_to_rrp_ratio_formula('t')} AS price_to_rrp_ratio,
           #{usual_price_ratio_formula('ah')} AS usual_price_ratio,
@@ -55,15 +90,24 @@ module FeatureGeneration
               THEN FALSE
             ELSE TRUE
           END AS has_voucher,
+          #{product_kind('t')} AS product_kind,
+          #{date_attrs_sql('t')},
+          #{productgroup_return_history('t')},
           ah.article_average_price,
           ah.article_cheapest_price,
           ah.article_most_expensive_price,
           ah.article_number_of_different_prices,
           oh.total_order_price,
+          oh.subtotal_order_price,
+          oh.n_articles_in_order,
+          oh.voucher_to_order_price_ratio,
           oah.different_sizes,
           oah.sizes,
           oah.different_colors,
           oah.colors,
+          oah.n_times_article_appears_in_order,
+          csc.cluster AS customer_cluster,
+
           cch.color_returned_times,
           cch.color_bought_times,
           cch.color_returned_ratio,
@@ -81,6 +125,8 @@ module FeatureGeneration
           INNER JOIN #{CustomerColorHistory.table_name} AS cch ON cch.customerid = t.customerid AND cch.colorcode = t.colorcode
           INNER JOIN #{CustomerSizeHistory.table_name}  AS csh ON csh.customerid = t.customerid AND csh.sizecode = t.sizecode
           INNER JOIN #{CustomerHistory.table_name}      AS ch ON ch.customerid = t.customerid
+          INNER JOIN #{Gender.table_name}               AS g  ON g.customerid = t.customerid
+          INNER JOIN customer_segmentation_clustering   AS csc ON csc.customerid = t.customerid
       }
     end
 

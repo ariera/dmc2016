@@ -19,7 +19,8 @@ module FeatureGeneration
           ))                              AS different_sizes,
           ARRAY_AGG(DISTINCT (sizecode))  AS sizes,
           count(DISTINCT (colorcode))     AS different_colors,
-          ARRAY_AGG(DISTINCT (colorcode)) AS colors
+          ARRAY_AGG(DISTINCT (colorcode)) AS colors,
+          count(*)                        AS n_times_article_appears_in_order
 
         FROM #{namespace}
         GROUP BY orderid, articleid

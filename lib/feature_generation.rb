@@ -13,6 +13,7 @@ require_relative './feature_generation/order_history.rb'
 require_relative './feature_generation/article_history.rb'
 require_relative './feature_generation/train_features.rb'
 require_relative './feature_generation/test_features.rb'
+require_relative './feature_generation/gender.rb'
 require_relative './feature_generation/train.rb'
 require_relative './feature_generation/train_dm2.rb'
 require_relative './feature_generation/test_dm2.rb'
@@ -24,10 +25,11 @@ module FeatureGeneration
     FeatureGeneration::Train.recreate_table
     FeatureGeneration::TrainDm2.recreate_table
     FeatureGeneration::TestDm2.recreate_table
+    FeatureGeneration::Gender.recreate_table
   end
 
   def self.generate_train_features
-    Table.namespace = "train"
+    Table.namespace = "train_dm2"
 
     measure = Benchmark.measure do
       FeatureGeneration::CustomerColorHistory.recreate_table
@@ -37,12 +39,20 @@ module FeatureGeneration
       FeatureGeneration::ArticleHistory.recreate_table
       FeatureGeneration::OrderHistory.recreate_table
       FeatureGeneration::TrainFeatures.recreate_table
+
+      # cleanup
+      FeatureGeneration::CustomerColorHistory.drop_table
+      FeatureGeneration::CustomerSizeHistory.drop_table
+      FeatureGeneration::CustomerHistory.drop_table
+      FeatureGeneration::OrderArticleHistory.drop_table
+      FeatureGeneration::ArticleHistory.drop_table
+      FeatureGeneration::OrderHistory.drop_table
     end
     puts measure
   end
 
   def self.generate_test_features
-    Table.namespace = "test"
+    Table.namespace = "test_dm2"
 
     measure = Benchmark.measure do
       FeatureGeneration::OrderArticleHistory.recreate_table
@@ -51,6 +61,11 @@ module FeatureGeneration
       FeatureGeneration::ArticleHistory.recreate_table
       FeatureGeneration::OrderHistory.recreate_table
       FeatureGeneration::TestFeatures.recreate_table
+
+      #cleanup
+      FeatureGeneration::OrderArticleHistory.drop_table
+      FeatureGeneration::ArticleHistory.drop_table
+      FeatureGeneration::OrderHistory.drop_table
     end
     puts measure
   end
